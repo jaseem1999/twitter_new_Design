@@ -1,0 +1,80 @@
+body {
+    color:white;
+    background: url(img/lohp_en_1302x955.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.secBg{
+    position: relative;
+    left: 52%;
+    height: 105%;
+    width: 50%;
+    background-color: black;
+    margin-bottom: 6px;
+    margin-top: -8px;
+    opacity: .8;
+}
+.twtImg img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    opacity: .8;
+}
+.twtFstLin {
+    position: relative;
+    left: 50px;
+    top: 75px;
+    font-size: 65px;
+    font-weight: bolder;
+}
+.twtFstLin span {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+.signin {
+    width: 54%;
+    height: 31px;
+    border: 0px solid white;
+    border-radius: 50px;
+    background: rgb(7, 148, 230);
+    position: absolute;
+    left: 50px;
+    top: 280px;
+}
+.signin span{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: white;
+}
+.signin a{
+    text-decoration: none;
+}
+.signin:hover{
+    background-color:rgb(1, 126, 199) ;
+}
+.signup {
+    width: 54%;
+    height: 31px;
+    border: 1px solid rgb(92, 147, 250);
+    border-radius: 50px;
+    position: absolute;
+    left: 50px;
+    top: 325px;
+}
+.signup span{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: white;
+}
+.signup a{
+    text-decoration: none;
+}
+.signup:hover{
+    background-color: rgb(4, 4, 59);
+}
