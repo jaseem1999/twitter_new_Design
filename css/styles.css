@@ -5,7 +5,14 @@ body {
     background-size: cover;
     overflow: hidden;
 }
-.secBg{
+#twitter-main-img img {
+    position: absolute;
+    left: 12%;
+    top: 35%;
+    height: 168px;
+    width: 258px;
+}
+#screen{
     position: relative;
     left: 52%;
     height: 105%;
@@ -13,7 +20,8 @@ body {
     background-color: black;
     margin-bottom: 6px;
     margin-top: -8px;
-    opacity: .8;
+    overflow: hidden;
+
 }
 .twtImg img {
     height: 40px;
@@ -21,7 +29,7 @@ body {
     position: relative;
     left: 25px;
     top: 25px;
-    opacity: .8;
+    
 }
 .twtFstLin {
     position: relative;
@@ -35,7 +43,7 @@ body {
     position: relative;
     top: 50px;
 }
-.signin {
+ #screen-1 {
     width: 54%;
     height: 31px;
     border: 0px solid white;
@@ -43,19 +51,19 @@ body {
     background: rgb(7, 148, 230);
     position: absolute;
     left: 50px;
-    top: 280px;
+    top: 302px;
 }
-.signin span{
+#screen-1 span{
     font-size: 25px;
     font-weight: bold;
     margin-left: 130px;
     color: white;
 }
-.signin a{
+#screen-1 a{
     text-decoration: none;
 }
-.signin:hover{
-    background-color:rgb(1, 126, 199) ;
+#screen-1:hover{
+    background-color: rgb(4, 4, 59) ;
 }
 .signup {
     width: 54%;
@@ -64,7 +72,7 @@ body {
     border-radius: 50px;
     position: absolute;
     left: 50px;
-    top: 325px;
+    top: 350px;
 }
 .signup span{
     font-size: 25px;
@@ -77,4 +85,539 @@ body {
 }
 .signup:hover{
     background-color: rgb(4, 4, 59);
+}
+#ftrTwitter{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -9px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: .8;
+    overflow: hidden;
+}
+#ftrTwitter button{
+    width: 261px;
+    height: 28px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    background: none;
+}
+#ftrTwitter button:hover{
+    background: rgb(7, 148, 230);
+    
+}
+#ftrTwitter button::after{
+    background-color: aliceblue;
+}
+@media(min-width: 992px) and (max-width: 1199px) {
+    .twtFstLin{
+        font-size: 50px;
+    }
+    #screen-1 span{
+        margin-left: 93px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 93px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 230px;
+    }
+}
+@media(min-width: 880px) and (max-width: 992px) {
+    .twtFstLin{
+        font-size: 45px;
+    }
+    .twtFstLin span{
+        font-size: 25px;
+    }
+    #screen-1 span{
+        margin-left: 93px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 93px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 230px;
+    }
+    #screen-1 span{
+        margin-left: 85px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 85px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 200px;
+    }
+    #twitter-main-img img{
+        top: 25%;
+    }
+    
+}
+@media (min-width: 850px) and (max-width: 880px) {
+    .twtFstLin{
+        font-size: 45px;
+    }
+    .twtFstLin span{
+        font-size: 25px;
+    }
+    #screen-1 span{
+        margin-left: 93px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 93px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 230px;
+    }
+    #screen-1 span{
+        margin-left: 85px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 85px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 200px;
+    }
+    #twitter-main-img img{
+        top: 25%;
+    }
+    
+}
+@media (min-width: 820px) and (max-width : 850px) {
+    .twtFstLin{
+        font-size: 40px;
+    }
+    .twtFstLin span{
+        font-size: 20px;
+    }
+    #screen-1 span{
+        margin-left: 93px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 93px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 230px;
+    }
+    #screen-1 span{
+        margin-left: 75px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 75px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 185px;
+    }
+    #twitter-main-img img{
+        top: 25%;
+    }
+    
+}
+@media (min-width: 770px) and (max-width: 820px) {
+    .twtFstLin{
+        font-size: 40px;
+    }
+    .twtFstLin span{
+        font-size: 20px;
+    }
+    #screen-1 span{
+        margin-left: 93px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 93px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 220px;
+    }
+    #screen-1 span{
+        margin-left: 75px;
+        font-size: 20px;
+    }
+    .signup span{
+        margin-left: 75px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 185px;
+    }
+    #twitter-main-img img{
+        top: 25%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 770px) {
+     #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+         width: 101%;
+         overflow: hidden;
+     }
+
+     .twtFstLin{
+        font-size: 75px;
+        font-weight: bold;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 75%;
+    height: 31px;
+}
+    #screen-1 span{
+        margin-left: 250px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 75%;
+    height: 31px;
+    }
+    .signup span{
+        margin-left: 250px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 315px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }
+    
+}
+@media (min-width:600px) and (max-width: 700px){
+    #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+         width: 101%;
+         overflow: hidden;
+     }
+     .twtFstLin{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 68%;
+    height: 31px;
+    top: 220px
+    }
+    #screen-1 span{
+        margin-left: 170px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 68%;
+    height: 31px;
+    top: 265px;
+    }
+    .signup span{
+        margin-left: 170px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 239px;
+        margin-left: 25px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 600px){
+    #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+         width: 101%;
+         overflow: hidden;
+     }
+     .twtFstLin{
+        font-size: 45px;
+        font-weight: bold;
+        left: 95px;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 68%;
+    height: 31px;
+    top: 220px;
+    left: 90px;
+    }
+    #screen-1 span{
+        margin-left: 140px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 68%;
+    height: 31px;
+    top: 265px;
+    left: 90px;
+    }
+    .signup span{
+        margin-left: 140px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 211px;
+       margin-left: 31px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }   
+
+}
+@media (min-width: 400px) and (max-width: 500px){
+    #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+        margin-top: -115px;
+        width: 102%;
+        height: 100px;
+        overflow: hidden;
+        opacity: .8;
+}
+
+
+     .twtFstLin{
+        font-size: 30px;
+        font-weight: bold;
+        top: 110px;
+        left: 75px;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 55%;
+    height: 31px;
+    top: 250px;
+    left: 71px;
+    
+    }
+    #screen-1 span{
+        margin-left: 82px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 55%;
+    height: 31px;
+    top: 300px;
+    left: 71px;
+    }
+    .signup span{
+        margin-left: 82px;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width: 306px;
+        margin-left: 55px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }   
+}
+@media (min-width: 300px) and (max-width: 400px){
+    #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+        margin-top: -115px;
+        width: 102%;
+        height: 100px;
+        overflow: hidden;
+        opacity: .8;
+}
+
+
+     .twtFstLin{
+        font-size: 30px;
+        font-weight: bold;
+        top: 110px;
+        left: 50px;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 55%;
+    height: 31px;
+    top: 250px;
+    left: 71px;
+    
+    }
+    #screen-1 span{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 55%;
+    height: 31px;
+    top: 300px;
+    left: 71px;
+    }
+    .signup span{
+         margin-left: 50px;;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width:  220px;
+        margin-left: 55px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }   
+}@media (min-width: 200px) and (max-width: 300px) {
+     #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+        margin-top: -115px;
+        width: 102%;
+        height: 100px;
+        overflow: hidden;
+        opacity: .8;
+}
+
+
+     .twtFstLin{
+        font-size: 30px;
+        font-weight: bold;
+        top: 110px;
+        left:  25px;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 55%;
+    height: 31px;
+    top: 250px;
+    left: 55px;
+    
+    }
+    #screen-1 span{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 55%;
+    height: 31px;
+    top: 300px;
+    left: 55px;
+    }
+    .signup span{
+         margin-left: 50px;;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width:  220px;
+        margin-left: 40px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }
+}
+@media (min-width: 50px) and (max-width: 200px){
+   #screen{
+         width: 100%;
+         left: 0px;
+         opacity: .8;
+     }
+     #ftrTwitter{
+        margin-top: -115px;
+        width: 102%;
+        height: 100px;
+        overflow: hidden;
+        opacity: .8;
+}
+
+
+     .twtFstLin{
+        font-size: 30px;
+        font-weight: bold;
+        top: 110px;
+        left:  25px;
+    }
+    .twtFstLin span{
+        font-size: 15px;
+        top: auto;
+    }
+    #screen-1 {
+    width: 55%;
+    height: 31px;
+    top: 250px;
+    left: 55px;
+    
+    }
+    #screen-1 span{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .signup {
+    width: 55%;
+    height: 31px;
+    top: 300px;
+    left: 55px;
+    }
+    .signup span{
+         margin-left: 50px;;
+        font-size:20px;
+    }
+    #ftrTwitter button{
+        width:  220px;
+        margin-left: 40px;
+    }
+    
+    #twitter-main-img img{
+        top: 25%;
+    }   
 }
