@@ -1,5 +1,5 @@
 body {
-    color:white;
+    color: white;
     background: url(img/lohp_en_1302x955.png) no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,7 +21,6 @@ body {
     margin-bottom: 6px;
     margin-top: -8px;
     overflow: hidden;
-
 }
 .twtImg img {
     height: 40px;
@@ -31,14 +30,15 @@ body {
     top: 25px;
     
 }
-.twtFstLin {
+.twtFstLin,#hap{
+    color: white;
     position: relative;
     left: 50px;
     top: 75px;
     font-size: 65px;
     font-weight: bolder;
 }
-.twtFstLin span {
+.twtFstLin,#hap span {
     font-size: 30px;
     position: relative;
     top: 50px;
@@ -48,13 +48,13 @@ body {
     height: 31px;
     border: 0px solid white;
     border-radius: 50px;
-    background: rgb(7, 148, 230);
+    background: rgb(55, 61, 65);
     position: absolute;
     left: 50px;
     top: 302px;
 }
 #screen-1 span{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 130px;
     color: white;
@@ -70,12 +70,13 @@ body {
     height: 31px;
     border: 1px solid rgb(92, 147, 250);
     border-radius: 50px;
+    background: rgb(55, 61, 65);
     position: absolute;
     left: 50px;
     top: 350px;
 }
 .signup span{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 130px;
     color: white;
@@ -112,7 +113,7 @@ body {
     background-color: aliceblue;
 }
 @media(min-width: 992px) and (max-width: 1199px) {
-    .twtFstLin{
+    .twtFstLin,#hap{
         font-size: 50px;
     }
     #screen-1 span{
@@ -128,10 +129,10 @@ body {
     }
 }
 @media(min-width: 880px) and (max-width: 992px) {
-    .twtFstLin{
+    .twtFstLin,#hap{
         font-size: 45px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 25px;
     }
     #screen-1 span{
@@ -162,10 +163,10 @@ body {
     
 }
 @media (min-width: 850px) and (max-width: 880px) {
-    .twtFstLin{
+    .twtFstLin,#hap{
         font-size: 45px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 25px;
     }
     #screen-1 span{
@@ -196,10 +197,10 @@ body {
     
 }
 @media (min-width: 820px) and (max-width : 850px) {
-    .twtFstLin{
+    .twtFstLin,#hap{
         font-size: 40px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 20px;
     }
     #screen-1 span{
@@ -230,10 +231,10 @@ body {
     
 }
 @media (min-width: 770px) and (max-width: 820px) {
-    .twtFstLin{
+    .twtFstLin,#hap{
         font-size: 40px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 20px;
     }
     #screen-1 span{
@@ -274,11 +275,11 @@ body {
          overflow: hidden;
      }
 
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 75px;
         font-weight: bold;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -317,11 +318,11 @@ body {
          width: 101%;
          overflow: hidden;
      }
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 55px;
         font-weight: bold;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -363,12 +364,12 @@ body {
          width: 101%;
          overflow: hidden;
      }
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 45px;
         font-weight: bold;
         left: 95px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -417,13 +418,13 @@ body {
 }
 
 
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 30px;
         font-weight: bold;
         top: 110px;
         left: 75px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -472,13 +473,13 @@ body {
 }
 
 
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 30px;
         font-weight: bold;
         top: 110px;
         left: 50px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -526,13 +527,13 @@ body {
 }
 
 
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 30px;
         font-weight: bold;
         top: 110px;
         left:  25px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }
@@ -581,13 +582,13 @@ body {
 }
 
 
-     .twtFstLin{
+     .twtFstLin,#hap{
         font-size: 30px;
         font-weight: bold;
         top: 110px;
         left:  25px;
     }
-    .twtFstLin span{
+    .twtFstLin,#hap span{
         font-size: 15px;
         top: auto;
     }

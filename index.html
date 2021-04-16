@@ -16,10 +16,11 @@
         <img src="css/img/138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png">
     </div>
     <div class="secBg" id ="screen">
-        <div class="twtImg">
+        <div class="twtImg" id ="twtImg">
             <img src="css/img/138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png">
+            <img src="css/img/twitter-bird-logo-3d-model-low-poly-obj-mtl-dae.png">
         </div>
-        <div class="twtFstLin">
+        <div class="twtFstLin" id="hap">
             Happening now <br><span>Join Twitter today.</span>
         </div>
         <div  id="screen-1">
@@ -30,8 +31,9 @@
         </div>
     </div>
     <footer id="ftrTwitter">
-        <button onclick="background(' rgb(0, 0, 114')"> Background color Blue ?</button>
-        <button onclick="background('Black')"> Background color blak?</button>
+        <button onclick="background('White'),bgcolorfooter('Black'),bgscreen()"> White mode ?</button>
+        <button onclick="background('Black'),bgcolorfooter('white'),bgscreen()">Black mode?</button>
+    
         
     </footer>
     <script src="js/jquery-2.1.4.min.js"></script>
