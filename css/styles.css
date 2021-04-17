@@ -3,6 +3,7 @@ body {
     background: url(img/lohp_en_1302x955.png) no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 #twitter-main-img img {
     position: absolute;
